@@ -5,6 +5,19 @@ El desarrollo web ha ido evolucionando ...
 
 # GIT
 
+## Vídeo Introductorio a GIT
+[![Watch the video](https://img.youtube.com/vi/Ip1CTrJ4o_U/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ip1CTrJ4o_U)
+
+## Actividades
+
+### GIT y GitHub
+ - Se creó una organización con varios participantes de la catedra.
+ - Se analizaron los distintos workflows y se optó por una branch por equipo.
+ - Cada equipo implementó distintas funciones y se pushearon
+ - Se realizaron Pull-Requests y se aprobaron/rechazaron
+ - Se provocaron conflictos con el fin de realizar merges
+ - Se vió la diferencia entre rebase y merge
+
 # NoSQL
 
 ## Vídeo Introductorio a Bases de Datos NoSQL
