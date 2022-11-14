@@ -6,7 +6,7 @@
 ## Actividades
 
 ### MongoDB
-Partiendo de una base de datos MongoDB sobre películas, y una aplicacion inicial en Express que tiene una busqueda hardcodeada por titulo de película se pide:
+Partiendo de una [base de datos MongoDB sobre películas](https://raw.githubusercontent.com/FerminAlvarez/MongoDB-JS/main/movies.json), y una aplicacion inicial en Express que tiene una busqueda hardcodeada por titulo de película se pide:
  - Arreglar la busqueda para poder buscar por algún término indicado por el usuario. 
     - Para buscar por término, se debe crear un index en la base de datos que considere tanto al título como la trama y los nombres de los actores de las películas.
  - De cada película encontrada mostrar su título, año de estreno, rating de IMDB, Tomatoes y Metacritic. Buscar una vista linda para mostrar todos los datos
