@@ -12,7 +12,9 @@ Partiendo de una base de datos MongoDB sobre películas, y una aplicacion inicia
  - De cada película encontrada mostrar su título, año de estreno, rating de IMDB, Tomatoes y Metacritic. Buscar una vista linda para mostrar todos los datos
  - Agregar un boton adicional que realice una busqueda especifica hardcodeada. Buscar que sea lo mas complicada posible, combinando varios filtros.
  - Agregar un boton que obtenga 5 peliculas random de la base de datos, y agregue una nueva película en la base de datos que combine datos obtenidos de cada una de ellas.
-
+    - Para obtener 5 peliculas random, se debe crear un Agregation que tenga un Sample de 5.
+ - Crear una Agregation
+ 
 ---
 
 ### Firebase
