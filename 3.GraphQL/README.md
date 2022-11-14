@@ -17,6 +17,7 @@ Partiendo de una [API GraphQL de Star Wars](https://graphql.org/swapi-graphql) s
  
 ---
 Partiendo de una [API GraphQL de Paises](https://countries.trevorblades.com/) se realizaron diversas consultas
-
+ - Obtener los continentes con sus paises en los que se hable español.
 ---
-Partiendo de una [API GraphQL de Clima](https://graphql-weather-api.herokuapp.com/) se realizaron diversas consultas
+Partiendo de una [API GraphQL de Clima](https://graphql-weather-api.herokuapp.com/) se solicitaron las consultas:
+ - Obtener el clima de Paris en tiempo real en diferentes unidades.
