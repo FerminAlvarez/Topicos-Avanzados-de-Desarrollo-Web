@@ -8,6 +8,7 @@ El desarrollo web ha ido evolucionando ...
 ## NoSQL
 Más información sobre este modulo [aquí](https://github.com/FerminAlvarez/Topicos-Avanzados-de-Desarrollo-Web/tree/main/2.NoSQL)
 ## GraphQL
+Más información sobre este modulo [aquí](https://github.com/FerminAlvarez/Topicos-Avanzados-de-Desarrollo-Web/tree/main/3.GraphQL)
 
 ## Micro-Frontends
 
