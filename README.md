@@ -8,13 +8,13 @@ El desarrollo web ha ido evolucionando ...
 - [NoSQL](#nosql)
 - [GraphQL](#graphql)
 - [Micro-Frontends](#micro-frontends)
-- [Microservicios y escalabilidad](#microservicios)
+- [Microservicios y escalabilidad](#microservicios-y-escalabilidad)
 - [Docker](#docker)
 - [Docker Compose](#docker-compose)
 - [RabbitMQ](#rabbitmq)
 - [Serverless](#serverless)
-- [Page Rendering y JAMStack](#page-rendering)
-- [Entrega e Integración Continua](#entrega-continua)
+- [Page Rendering y JAMStack](#page-rendering-y-jamstack)
+- [Entrega e Integración Continua](#entrega-e-integración-continua)
 
 # GIT
 
