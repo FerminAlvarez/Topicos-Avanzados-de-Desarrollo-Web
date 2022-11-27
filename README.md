@@ -98,7 +98,29 @@ Estos microservicios volvimos a desplegarlos localmente y compartimos el puerto 
 
 # Docker
 
+## Vídeo introductorio a Docker
+[![Watch the video](https://i3.ytimg.com/vi/8cn0nRRWXAw/maxresdefault.jpg)](https://www.youtube.com/watch?v=8cn0nRRWXAw)
+
+## Actividades
+Para comprender mejor como funcionan las imagenes de Docker y los contenedores, nos descargamos Docker Desktop, y luego realizamos dos actividades:
+ - La primer tarea fue un poco más básica para familiarizarnos un poco con los Dockerfiles. Realizamos una aplicación básica en express cuyo funcionamiento no era lo importante para la tarea. Luego creamos la imagen utilizando docker build, y creamos el contenedor y lo probamos utilizando docker run.
+ - Una vez familiarizados con el funcionamiento básico de docker creamos otra aplicación en express, que se conecta a una base de datos local en MongoDB y hace GETs para extraer información de la base de datos. Para esta nueva aplicación volvimos a crear la imagen y el contenedor correspondientes y lo probamos.
+ 
+Además de estas actividades, jugamos un poco con DockerHub, primero hicimos pull de imagenes como la de MongoDB y corroboramos que funcionase, y luego nos creamos una cuenta y aprendimos como es el funcionamiento para poder subir tus imagenes locales al repositorio de DockerHub.
+
 # Docker Compose
+
+## Vídeo introductorio a Docker Compose
+[![Watch the video](https://i3.ytimg.com/vi/L0klOFW187s/maxresdefault.jpg)](https://www.youtube.com/watch?v=L0klOFW187s)
+
+## Actividades
+Habiendo jugado previamente con la creación de imagenes y contenedores en el anterior módulo, estabamos listos para aprender sobre el funcionamiento de Docker Compose. Si bien habíamos aprendido cómo crear imagenes para aplicaciones y hacer que estas corran en un contenedor en determinado puerto, el verdadero jugo que tiene el utilizar herramientas como docker es el de poder "juntar" o "ensamblar" microservicios, pero sin tener que hardcodear los puertos en los que estos corren, ya que es una solución poco elegante. Para esto utilizamos el Docker Compose, un archivo YAML que nos permite realizar este tipo de configuraciones.
+Puntualmente, la actividad que realizamos fue la siguiente:
+Se nos entrego un código en React que consumía 3 microservicios, uno en PHP, otro en express y otro en Python, que lo que hacían es generar numeros random del 0 al 99999, y la aplicación React los mostraba, y variaba el color dependiendo al microservicio al que se lo hubiese pedido, actualizando el número cada 3 segundos. Este código tenía en la aplicación React los puertos de los microservicios hardcodeados, por lo que nuestra tarea consistia en: 
+ - Generar el Dockerfile para cada microservicio y para la aplicación en React.
+ - Definir el docker-compose que permita ejecutar toda la aplicación en conjunto.
+ - Configurar correctamente el docker-compose para que puedan configurarse los puertos y evitar hardcodearlos en el código.
+ - Replicar alguno de los microservicios, ejecutando una misma imagen en contenedores diferentes.
 
 # RabbitMQ
 
