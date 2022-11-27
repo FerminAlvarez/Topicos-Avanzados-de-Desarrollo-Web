@@ -81,7 +81,20 @@ Partiendo de una [API GraphQL de Clima](https://graphql-weather-api.herokuapp.co
 
 # Micro-Frontends
 
+## Vídeo introductorio a Micro-Frontends
+[![Watch the video](https://i3.ytimg.com/vi/h3ukjSRw53M/maxresdefault.jpg)](https://www.youtube.com/watch?v=h3ukjSRw53M)
+
+## Actividades
+Creamos una aplicación React que contiene unicamente un Componente con una Frase de los simpsons, y mediante la utilizacion de un proxy invertido, en este caso Ngrok, enviamos el link de cada microfrontend al profesor, que hizo otra aplicación react que utilizaba cada componente entregado por los alumnos como un micro-frontend y los mostraba todos juntos. 
+
 # Microservicios y Escalabilidad
+
+## Vídeo introductorio a Microservicios y escalabilidad
+[![Watch the video](https://i3.ytimg.com/vi/w0L6ify1v8c/maxresdefault.jpg)](https://www.youtube.com/watch?v=w0L6ify1v8c)
+
+## Actividades
+Se dividieron los alumnos en grupos, y cada uno fue encargado de realizar un microservicio diferente en express para intentar hacer una aplicación React que imite el home page de Netflix, algunos hicieron un microservicio para obtener las peliculas más populares, otros hicieron un microservicio para recomendar peliculas teniendo en cuenta las últimas visualizaciones, y para esto era libre consumir cualquier API, por ejemplo la de Open Movie Database o The Movie Database.
+Estos microservicios volvimos a desplegarlos localmente y compartimos el puerto generado por Ngrok para que el profesor pueda consumirlos.
 
 # Docker
 
