@@ -1,7 +1,7 @@
 # Topicos Avanzados de Desarrollo Web
 
 # Introducción
-El desarrollo web ha ido evolucionando ...
+En este repositorio se hará un resumen de los temas y sus correspondientes actividades que desarrollamos durante la cursada de Topicos Avanzados del Desarrollo Web - Universidad Nacional del Sur - 2022
 
 # Tabla de contenidos
 - [GIT](#git)
@@ -124,8 +124,30 @@ Se nos entrego un código en React que consumía 3 microservicios, uno en PHP, o
 
 # RabbitMQ
 
+## Vídeo introductorio a RabbitMQ
+[![Watch the video](https://i3.ytimg.com/vi/LYr3X4agbZI/maxresdefault.jpg)](https://www.youtube.com/watch?v=LYr3X4agbZI)
+
+## Actividades
+
+
 # Serverless
+## Vídeo introductorio a Serverless
+[![Watch the video](https://i3.ytimg.com/vi/ad8BzihRhYQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=ad8BzihRhYQ)
+
+## Actividades
+Haciendo uso de un código simple que nos fue brindado y de MongoDB Atlas 
+- Crear una función Atlas que sólo imprima "Hola Serverless", inspirado el código mencionado anteriormente. Integrarlo en la app.
+- Crear un trigger, que cada vez que se agrega un comentario en sample_mflix, carga en una colección nueva "avisos", un documento con el nombre de la persona que se agrega el comentario. Probarlo agregando a mano en Atlas comentarios a esa colección. Debería agregar registros a "avisos" automaicamente.
+- Crear una función que te muestre la ultima persona que hizo un comentario e integrarlo a la aplicación.
 
 # Page Rendering y JAMStack
+## Vídeo introductorio a Page Rendering y JAMStack
+[![Watch the video](https://i3.ytimg.com/vi/VCdVV8KwuTc/maxresdefault.jpg)](https://www.youtube.com/watch?v=VCdVV8KwuTc)
+
+## Actividades
 
 # Entrega e Integración Continua
+## Vídeo introductorio a Page Rendering y JAMStack
+[![Watch the video](https://i3.ytimg.com/vi/Hj6qUv-T1qE/maxresdefault.jpg)](https://www.youtube.com/watch?v=Hj6qUv-T1qE)
+
+## Actividades
