@@ -129,6 +129,15 @@ Se nos entrego un código en React que consumía 3 microservicios, uno en PHP, o
 
 ## Actividades
 
+Descargamos y corrimos la imagen oficial de docker de RabbitMQ. Luego partiendo de un código simple que nos fue brindado que contenia 2 aplicaciónes en express:
+ - Una que generaba dos numeros al azar entre 0 y 100, y los enviaba a una cola de RabbitMQ.
+ - La otra consumía los mensajes de esa cola y imprimía por consola el resultado de la suma de estos números.
+La tarea que se nos solicito fue la siguiente:
+ - Agregar otra cola en la que mandar numeros pero esta vez para multiplicarlos.
+ - Mandar de forma aleatoria los números a la cola para sumarlos o multiplicarlos.
+ - Mostrar por consola los resultados de las multiplicaciones al igual que previamente hacíamos con las sumas.
+ - Agregar otra cola que se encargue de mostrar los resultados de las operaciones en lugar de mostrarlas por consola.
+ - Enviar un mensaje cuando se conectan y desconectan de la cola las aplicaciones.
 
 # Serverless
 ## Vídeo introductorio a Serverless
