@@ -137,7 +137,7 @@ Se nos entrego un código en React que consumía 3 microservicios, uno en PHP, o
 ## Actividades
 Haciendo uso de un código simple que nos fue brindado y de MongoDB Atlas 
 - Crear una función Atlas que sólo imprima "Hola Serverless", inspirado el código mencionado anteriormente. Integrarlo en la app.
-- Crear un trigger, que cada vez que se agrega un comentario en sample_mflix, carga en una colección nueva "avisos", un documento con el nombre de la persona que se agrega el comentario. Probarlo agregando a mano en Atlas comentarios a esa colección. Debería agregar registros a "avisos" automaicamente.
+- Crear un trigger, que se active cada vez que se agrega un comentario en la colección "sample_mflix", y cargue en una colección nueva "avisos", un documento con el nombre de la persona que agrega el comentario. Probarlo agregando a mano en Atlas comentarios a esa colección. Debería agregar registros a "avisos" automaicamente.
 - Crear una función que te muestre la ultima persona que hizo un comentario e integrarlo a la aplicación.
 
 # Page Rendering y JAMStack
