@@ -161,3 +161,19 @@ Haciendo uso de un código simple que nos fue brindado y de MongoDB Atlas
 [![Watch the video](https://i3.ytimg.com/vi/Hj6qUv-T1qE/maxresdefault.jpg)](https://www.youtube.com/watch?v=Hj6qUv-T1qE)
 
 ## Actividades
+
+La primer actividad para aprender sobre Integración Continua y Entrega Continua consistio de:
+ - Crear archivos index.html y estilo.css basicos.
+ - Crear un repo en github y pushear estos archivos.
+ - Agregar la action *Labeler* y configurarla para:
+     - Agregar la etiqueta estilo cuando se haga un PR que modifique el archivo estilo.css.
+     - Agregar la etiqueta esttructura cuando se haga un PR que modifique el archivo index.html.        
+
+Luego, la segunda actividad consistió en vincular un repo de github con un proyecto de Vercel para que se haga un deploy automático. Para esto:
+ - Crear una aplicación en NextJS.
+ - Crear un repositorio de Github y pushear la aplicación creada.
+ - Registrarse en Vercel.
+ - Crear un proyecto en Vercel para este repositorio y hacer el deploy inicial.
+ - Generar Token en Vercel y configurar los Secrets del repositorio Github.
+ - Crear el workflow deploy.yml para que se realice el deploy automaticamente al realizar un push o un pull request.
+
