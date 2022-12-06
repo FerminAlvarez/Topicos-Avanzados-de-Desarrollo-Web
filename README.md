@@ -165,7 +165,7 @@ Haciendo uso de un código simple que nos fue brindado y de MongoDB Atlas
 La primer actividad para aprender sobre Integración Continua y Entrega Continua consistio de:
  - Crear archivos index.html y estilo.css basicos.
  - Crear un repo en github y pushear estos archivos.
- - Agregar la action *Labeler* y configurarla para:
+ - Agregar la action [*Labeler*](https://github.com/actions/labeler) y configurarla para:
      - Agregar la etiqueta estilo cuando se haga un PR que modifique el archivo estilo.css.
      - Agregar la etiqueta esttructura cuando se haga un PR que modifique el archivo index.html.        
 
